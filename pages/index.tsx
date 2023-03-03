@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import DemoComponent from "@/components/DemoComponent";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -13,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <DemoComponent />
+        <Services />
       </main>
     </>
   );
