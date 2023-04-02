@@ -101,7 +101,6 @@ const services = [
 
 function Services() {
   return (
-    <div id="services" className="bg-[#ffffff] w-full h-full overflow-hidden py-12">
     <div className="bg-[#ffffff] w-full h-full overflow-hidden py-12">
       <div className="max-w-6xl mx-auto flex flex-col gap-10 px-4 lg:px-0">
         <span
@@ -121,7 +120,7 @@ function Services() {
             <div
               key={index}
               className="card flex p-4 flex-col justify-between gap-2
-              hover:bg-opacity-40 transition-all duration-500 ease-in-out hover:scale-105 cursor-pointer
+              hover:bg-opacity-40 transition-all duration-500 ease-in-out hover:scale-105
               "
             >
               {service.icon}
@@ -152,4 +151,3 @@ function Services() {
 }
 
 export default Services;
-

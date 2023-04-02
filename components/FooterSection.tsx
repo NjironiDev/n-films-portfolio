@@ -3,12 +3,11 @@ import { FaFacebook, FaInstagram, FaYoutube, FaLocationArrow, FaPhoneAlt } from 
 import { HiArrowSmRight } from "react-icons/hi";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsFillHeartFill } from "react-icons/bs";
-import Link from "next/link";
 
 const FooterSection = () =>{
     return(
         <section className="block">
-            <div className="bg-gray-50 h-1/2 w-full grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4 items-start p-10"> 
+            <div className="bg-gray-60 h-1/2 w-full grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4 items-start p-10"> 
                 <div className="p-5">
                         <div className="text-gray-800 font-bold text-3xl pb-6">
                             <img src="/n-films.png" className="w-[200px] h-auto rounded-xl cursor-pointer" alt="" />
@@ -25,21 +24,21 @@ const FooterSection = () =>{
                     <ul className="leading-7">
                         <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Film Corporate</span></li>
                         <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Motion designs</span></li>
-                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Tutoriel/e-learning</span></li>
-                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Live event</span></li>
-                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Drone</span></li>
-                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Fiction</span></li>
+                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Commercial</span></li>
+                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Film Corporate</span></li>
+                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Film Corporate</span></li>
+                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Film Corporate</span></li>
                     </ul>
                 </div>
                 <div className="p-5">
-                    <h3 className="text-lg text-gray-900 mb-2"></h3>
+                    <h3 className="text-lg text-gray-900 mb-2">Navigation</h3>
                     <ul className="leading-7">
-                        <Link href={'#home'}><li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Home</span></li></Link>
-                        <Link href={'#about'}><li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> About Us</span></li></Link>
-                        <Link href={'#services'}><li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Our Services</span></li></Link>
-                        <Link href={'#portfolio'}><li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Portfolio</span></li></Link>
-                        <Link href={'#contact'}><li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Contact</span></li></Link>
-                        <Link href={'#testimonials'}><li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Testimonials</span></li></Link>
+                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Home</span></li>
+                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> About Us</span></li>
+                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Our Services</span></li>
+                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Portfolio</span></li>
+                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Contact</span></li>
+                        <li className="flex gap-3 hover:translate-x-6 cursor-pointer"><HiArrowSmRight className="justify-center bg-white text-emerald-700 text-xl"/> <span className="text-md text-gray-700"> Testimonials</span></li>
                     </ul>
                 </div>
                 <div className="p-5">
